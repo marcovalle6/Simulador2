@@ -1,0 +1,36 @@
+﻿@model Simulador2.Models.EstimacionServicios
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>EstimacionServicios</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.unidad_produccion)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.unidad_produccion)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.TotalSuscripciones)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.TotalSuscripciones)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.TotalMensual)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.TotalMensual)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.Idsuscripcion">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

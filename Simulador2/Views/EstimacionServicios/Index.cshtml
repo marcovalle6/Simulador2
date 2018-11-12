@@ -1,0 +1,47 @@
+﻿@model IEnumerable<Simulador2.Models.EstimacionServicios>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.unidad_produccion)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.TotalSuscripciones)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.TotalMensual)
+                </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.unidad_produccion)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TotalSuscripciones)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TotalMensual)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Idsuscripcion">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.Idsuscripcion">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Idsuscripcion">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

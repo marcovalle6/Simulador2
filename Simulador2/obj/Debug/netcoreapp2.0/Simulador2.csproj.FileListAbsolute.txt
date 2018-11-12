@@ -1,0 +1,11 @@
+c:\users\valle\source\repos\Simulador2\Simulador2\bin\Debug\netcoreapp2.0\Simulador2.deps.json
+c:\users\valle\source\repos\Simulador2\Simulador2\bin\Debug\netcoreapp2.0\Simulador2.runtimeconfig.json
+c:\users\valle\source\repos\Simulador2\Simulador2\bin\Debug\netcoreapp2.0\Simulador2.runtimeconfig.dev.json
+c:\users\valle\source\repos\Simulador2\Simulador2\bin\Debug\netcoreapp2.0\Simulador2.dll
+c:\users\valle\source\repos\Simulador2\Simulador2\obj\Debug\netcoreapp2.0\Simulador2.csprojAssemblyReference.cache
+c:\users\valle\source\repos\Simulador2\Simulador2\obj\Debug\netcoreapp2.0\Simulador2.csproj.CoreCompileInputs.cache
+c:\users\valle\source\repos\Simulador2\Simulador2\obj\Debug\netcoreapp2.0\Simulador2.AssemblyInfoInputs.cache
+c:\users\valle\source\repos\Simulador2\Simulador2\obj\Debug\netcoreapp2.0\Simulador2.AssemblyInfo.cs
+c:\users\valle\source\repos\Simulador2\Simulador2\bin\Debug\netcoreapp2.0\Simulador2.pdb
+c:\users\valle\source\repos\Simulador2\Simulador2\obj\Debug\netcoreapp2.0\Simulador2.dll
+c:\users\valle\source\repos\Simulador2\Simulador2\obj\Debug\netcoreapp2.0\Simulador2.pdb
